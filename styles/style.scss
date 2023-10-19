@@ -1,6 +1,23 @@
 @import "./variables";
 @import "./accordion";
 
-body{
-    background-color: red;
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{   
+     @include flexCenter();
+    font-family: $fontFamily;
+    background-image: linear-gradient($bgGradientColor1, $bgGradientColor2);
+    height: 100vh;
+    
+}
+
+.wrapper{
+    background-color: white;    
+    width: 75%;
+    padding: 50px;
+    border-radius: 20px;
 }

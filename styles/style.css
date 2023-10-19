@@ -1,3 +1,15 @@
 body {
-  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Kumbh Sans", sans-serif;
+  background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+  height: 100vh;
+}
+
+.wrapper {
+  background-color: white;
+  width: 75%;
+  padding: 50px;
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
