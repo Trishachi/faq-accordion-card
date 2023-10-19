@@ -8,6 +8,9 @@ body {
 }
 
 .wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: white;
   width: 75%;
   padding: 50px;
