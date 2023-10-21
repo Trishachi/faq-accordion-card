@@ -1,3 +1,21 @@
+.faq-section {
+  padding: 20px;
+}
+.faq-section .title {
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.faq-section .accordion {
+  font-size: 12px;
+}
+.faq-section .accordion .accordion-button {
+  font-size: 12px;
+}
+.faq-section .accordion .accordion-button:focus {
+  font-weight: bold;
+  border-color: none;
+}
+
 body {
   display: flex;
   justify-content: center;
