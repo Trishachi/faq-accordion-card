@@ -9,7 +9,7 @@
 .faq-section .accordion {
   font-size: 12px;
   background-color: #fff;
-  color: #444;
+  color: hsl(238, 29%, 16%);
   cursor: pointer;
   padding: 18px;
   width: 100%;
@@ -17,12 +17,11 @@
   border: none;
   outline: none;
   transition: 0.4s;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 .faq-section .accordion::after {
   content: url(../images/icon-arrow-down.svg); /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
-  color: #777;
+  font-size: 12px;
   float: right;
   margin-left: 5px;
 }
@@ -30,6 +29,7 @@
   font-weight: bold;
 }
 .faq-section .panel {
+  font-size: 12px;
   padding: 0 18px;
   background-color: white;
   max-height: 0;
