@@ -8,16 +8,40 @@
 
     .accordion{
         font-size: $fontSize;
+        background-color: #fff;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        text-align: left;
+        border: none;
+        outline: none;
+        transition: 0.4s;
+        border-bottom: 1px solid #eee;
 
-        .accordion-button {
-            font-size: $fontSize;
-        &:focus {
-            
-                font-weight: bold;
-                border-color: none;
-            }
-        } 
+        &::after {
+        content: url(../images/icon-arrow-down.svg);/* Unicode character for "plus" sign (+) */
+        font-size: 13px;
+        color: #777;
+        float: right;
+        margin-left: 5px;
+        }
+
+        .active, &:hover {
+            font-weight: bold;
+        }
+
+       
     }
+
+    /* Style the accordion panel. Note: hidden by default */
+    .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
 
     
     
