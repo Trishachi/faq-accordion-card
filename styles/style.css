@@ -4,7 +4,7 @@
 }
 .faq-section .title {
   font-weight: bold;
-  padding-bottom: 20px;
+  padding-left: 15px;
 }
 .faq-section .accordion {
   font-size: 12px;
@@ -25,7 +25,7 @@
   float: right;
   margin-left: 5px;
 }
-.faq-section .accordion .active, .faq-section .accordion:hover {
+.faq-section .accordion:hover {
   font-weight: bold;
 }
 .faq-section .panel {
@@ -35,6 +35,9 @@
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
+}
+.faq-section .active {
+  font-weight: bold;
 }
 
 body {
