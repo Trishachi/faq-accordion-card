@@ -30,6 +30,7 @@
 }
 .faq-section .panel {
   font-size: 12px;
+  width: 90%;
   background-color: white;
   max-height: 0;
   overflow: hidden;
@@ -37,6 +38,14 @@
 }
 .faq-section .active {
   font-weight: bold;
+  border-bottom: none;
+}
+.faq-section .active::after {
+  content: url(../images/icon-arrow-down.svg);
+  transform: rotate(180deg);
+}
+.faq-section .active .faq-section .panel {
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 body {
