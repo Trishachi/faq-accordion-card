@@ -11,13 +11,13 @@
         background-color: #fff;
         color: $textColor1;
         cursor: pointer;
-        padding: 18px 18px 18px 0;
+        padding: 15px 15px 15px 0;
         width: 100%;
         text-align: left;
         border: none;
         outline: none;
         transition: 0.4s;
-        border-bottom: 1px solid $divider;
+        // border-bottom: 1px solid $divider;
         
         &::after {
         content: url(../images/icon-arrow-down.svg);/* Unicode character for "plus" sign (+) */
@@ -35,11 +35,16 @@
     /* Style the accordion panel. Note: hidden by default */
     .panel {
     font-size: $fontSize;
-    width: 90%;
+    width: 98%;
     background-color: white;
     max-height: 0;
     overflow: hidden;
+    border-bottom: 1px solid $divider;
     transition: max-height 0.2s ease-out;
+
+    p {
+        width: 95%;
+    }
   }
 
    .active{
@@ -50,9 +55,7 @@
         content: url(../images/icon-arrow-down.svg);
         transform: rotate(180deg);
     }
-    .faq-section .panel {
-        border-bottom: 1px solid $divider; 
-    }
+   
    } 
     
 }
