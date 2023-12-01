@@ -48,6 +48,11 @@
   transform: rotate(180deg);
 }
 
+.image-section .main-img {
+  margin-left: -30%;
+  overflow: hidden;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -65,4 +70,8 @@ body {
   width: 70%;
   padding: 50px;
   border-radius: 20px;
+  background-image: url(../images/bg-pattern-desktop.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: -20% 10%;
 }/*# sourceMappingURL=style.css.map */
