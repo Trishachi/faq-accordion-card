@@ -1,6 +1,22 @@
-.image-section{  
+.image-section{
+    &::before {
+        content: url(../images/illustration-box-desktop.svg);
+        z-index: 1000;        
+        position: absolute;
+        color: black;
+        top: 40%;
+        left: -40%;
+    }
+    position: relative;  
     .main-img{
+        position: relative;
         margin-left: -30%;
-        overflow: hidden;
-    }  
+        
+    } 
+    // .secondary-img{
+    //     position: absolute;
+
+    // }
+    
+    
 }
