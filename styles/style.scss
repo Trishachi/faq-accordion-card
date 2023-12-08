@@ -20,11 +20,11 @@ body{
     @include flexCenter();
     background-color: white;    
     width: 70%;
-    max-width: 1200px;
+    max-width: 960px;
     padding: 50px;
     border-radius: 20px;
     background-image: url(../images/bg-pattern-desktop.svg);
     background-repeat: no-repeat;
     overflow: hidden;
-    background-position: -8600% 65%;
+    background-position: -600px 65%;
 }
