@@ -1,6 +1,8 @@
 @import "./variables";
 @import "./accordion";
 @import "./leftside";
+// @import "./mobile.scss" screen and (max-width: 600px);
+
 
 @mixin flexCenter {
     display: flex;
@@ -28,3 +30,25 @@ body{
     overflow: hidden;
     background-position: -600px 65%;
 }
+
+@media only screen and (max-width: 600px) {
+    .wrapper {
+    //   background-color: red;
+      display: block;
+      max-width: 450px;
+      overflow: visible;
+      background-size: 250px auto;
+      background-position: 50px -150px;
+    }
+
+    .image-section{
+
+        position: relative;  
+        .main-img{
+            position: relative;
+            margin-top: -220%;
+            margin-left: 0;
+            
+        }
+    } 
+  }
